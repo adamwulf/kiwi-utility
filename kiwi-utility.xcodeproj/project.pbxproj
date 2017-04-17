@@ -18,10 +18,10 @@
 		C5120DD21EA5543300D22EA5 /* KiwiUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KiwiUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5120DD41EA5543300D22EA5 /* KiwiUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiwiUtility.h; sourceTree = "<group>"; };
 		C5120DD51EA5543300D22EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C513C1D31EA5507500A59E7C /* NSArray+MapReduce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+MapReduce.h"; path = "../kiwi-utility/NSArray+MapReduce.h"; sourceTree = "<group>"; };
-		C513C1D41EA5507500A59E7C /* NSArray+MapReduce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MapReduce.m"; path = "../kiwi-utility/NSArray+MapReduce.m"; sourceTree = "<group>"; };
-		C513C1D51EA5507500A59E7C /* NSArray+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Helper.h"; path = "../kiwi-utility/NSArray+Helper.h"; sourceTree = "<group>"; };
-		C513C1D61EA5507500A59E7C /* NSArray+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Helper.m"; path = "../kiwi-utility/NSArray+Helper.m"; sourceTree = "<group>"; };
+		C513C1D31EA5507500A59E7C /* NSArray+MapReduce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MapReduce.h"; sourceTree = "<group>"; };
+		C513C1D41EA5507500A59E7C /* NSArray+MapReduce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MapReduce.m"; sourceTree = "<group>"; };
+		C513C1D51EA5507500A59E7C /* NSArray+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Helper.h"; sourceTree = "<group>"; };
+		C513C1D61EA5507500A59E7C /* NSArray+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,6 +300,7 @@
 				C5120DD91EA5543300D22EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C513C1C21EA5505700A59E7C /* Build configuration list for PBXProject "kiwi-utility" */ = {
 			isa = XCConfigurationList;
