@@ -12,6 +12,10 @@
 		C5120DDB1EA5545400D22EA5 /* NSArray+MapReduce.m in Sources */ = {isa = PBXBuildFile; fileRef = C513C1D41EA5507500A59E7C /* NSArray+MapReduce.m */; };
 		C5120DDC1EA5545700D22EA5 /* NSArray+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = C513C1D51EA5507500A59E7C /* NSArray+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5120DDD1EA5545A00D22EA5 /* NSArray+MapReduce.h in Headers */ = {isa = PBXBuildFile; fileRef = C513C1D31EA5507500A59E7C /* NSArray+MapReduce.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C57AF8021EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.h in Headers */ = {isa = PBXBuildFile; fileRef = C57AF8001EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C57AF8031EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.m in Sources */ = {isa = PBXBuildFile; fileRef = C57AF8011EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.m */; };
+		C59A945D1EA84BF40024D38F /* NSString+MMHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C59A945B1EA84BF40024D38F /* NSString+MMHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C59A945E1EA84BF40024D38F /* NSString+MMHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A945C1EA84BF40024D38F /* NSString+MMHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C513C1D41EA5507500A59E7C /* NSArray+MapReduce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MapReduce.m"; sourceTree = "<group>"; };
 		C513C1D51EA5507500A59E7C /* NSArray+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Helper.h"; sourceTree = "<group>"; };
 		C513C1D61EA5507500A59E7C /* NSArray+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Helper.m"; sourceTree = "<group>"; };
+		C57AF8001EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DirectoryOptimizations.h"; sourceTree = "<group>"; };
+		C57AF8011EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DirectoryOptimizations.m"; sourceTree = "<group>"; };
+		C59A945B1EA84BF40024D38F /* NSString+MMHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MMHelper.h"; sourceTree = "<group>"; };
+		C59A945C1EA84BF40024D38F /* NSString+MMHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MMHelper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,10 +46,14 @@
 		C5120DD31EA5543300D22EA5 /* KiwiUtility */ = {
 			isa = PBXGroup;
 			children = (
+				C57AF8001EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.h */,
+				C57AF8011EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.m */,
 				C513C1D31EA5507500A59E7C /* NSArray+MapReduce.h */,
 				C513C1D41EA5507500A59E7C /* NSArray+MapReduce.m */,
 				C513C1D51EA5507500A59E7C /* NSArray+Helper.h */,
 				C513C1D61EA5507500A59E7C /* NSArray+Helper.m */,
+				C59A945B1EA84BF40024D38F /* NSString+MMHelper.h */,
+				C59A945C1EA84BF40024D38F /* NSString+MMHelper.m */,
 				C5120DD41EA5543300D22EA5 /* KiwiUtility.h */,
 				C5120DD51EA5543300D22EA5 /* Info.plist */,
 			);
@@ -73,6 +85,8 @@
 			files = (
 				C5120DD61EA5543300D22EA5 /* KiwiUtility.h in Headers */,
 				C5120DDD1EA5545A00D22EA5 /* NSArray+MapReduce.h in Headers */,
+				C57AF8021EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.h in Headers */,
+				C59A945D1EA84BF40024D38F /* NSString+MMHelper.h in Headers */,
 				C5120DDC1EA5545700D22EA5 /* NSArray+Helper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C59A945E1EA84BF40024D38F /* NSString+MMHelper.m in Sources */,
 				C5120DDA1EA5545200D22EA5 /* NSArray+Helper.m in Sources */,
 				C5120DDB1EA5545400D22EA5 /* NSArray+MapReduce.m in Sources */,
+				C57AF8031EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

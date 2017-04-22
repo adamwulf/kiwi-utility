@@ -19,3 +19,5 @@ FOUNDATION_EXPORT const unsigned char KiwiUtilityVersionString[];
 
 #import <KiwiUtility/NSArray+MapReduce.h>
 #import <KiwiUtility/NSArray+Helper.h>
+#import <KiwiUtility/NSString+MMHelper.h>
+#import <KiwiUtility/NSFileManager+DirectoryOptimizations.h>
