@@ -15,4 +15,6 @@
 
 + (NSString*)documentsPath;
 
++ (void)ensureDirectoryExistsAtPath:(NSString*)path;
+
 @end

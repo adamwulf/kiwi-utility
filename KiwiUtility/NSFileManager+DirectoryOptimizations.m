@@ -27,5 +27,19 @@ static NSArray* userCachesPaths;
     }
     return [userDocumentsPaths objectAtIndex:0];
 }
+// checks if we've tried to create this path before,
+// if so then returns immediatley.
+// otherwise checks existence and creates if needed
++ (void)ensureDirectoryExistsAtPath:(NSString*)path {
+    if (!path)
+        return;
+    
+    NSFileManager* fm = [[NSFileManager alloc] init];
+
+    if (![fm fileExistsAtPath:path]) {
+        [fm createDirectoryAtPath:path withIntermediateDirectories:YES attributes:nil error:nil];
+    }
+}
+
 
 @end
