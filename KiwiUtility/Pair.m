@@ -19,4 +19,8 @@
     return pair;
 }
 
+-(NSString*) description{
+    return [NSString stringWithFormat:@"[Pair: %@ %@]", [self val1], [self val2]];
+}
+
 @end
