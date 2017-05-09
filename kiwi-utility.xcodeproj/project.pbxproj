@@ -16,6 +16,8 @@
 		C57AF8031EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.m in Sources */ = {isa = PBXBuildFile; fileRef = C57AF8011EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.m */; };
 		C59A945D1EA84BF40024D38F /* NSString+MMHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C59A945B1EA84BF40024D38F /* NSString+MMHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C59A945E1EA84BF40024D38F /* NSString+MMHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A945C1EA84BF40024D38F /* NSString+MMHelper.m */; };
+		C59E4B8B1EC184D7000CFE90 /* Pair.h in Headers */ = {isa = PBXBuildFile; fileRef = C59E4B891EC184D7000CFE90 /* Pair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C59E4B8C1EC184D7000CFE90 /* Pair.m in Sources */ = {isa = PBXBuildFile; fileRef = C59E4B8A1EC184D7000CFE90 /* Pair.m */; };
 		C5AF62F41EB7FFD7006265B3 /* MMStatTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AF62F21EB7FFD7006265B3 /* MMStatTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5AF62F51EB7FFD7006265B3 /* MMStatTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AF62F31EB7FFD7006265B3 /* MMStatTracker.m */; };
 /* End PBXBuildFile section */
@@ -32,6 +34,8 @@
 		C57AF8011EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DirectoryOptimizations.m"; sourceTree = "<group>"; };
 		C59A945B1EA84BF40024D38F /* NSString+MMHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MMHelper.h"; sourceTree = "<group>"; };
 		C59A945C1EA84BF40024D38F /* NSString+MMHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MMHelper.m"; sourceTree = "<group>"; };
+		C59E4B891EC184D7000CFE90 /* Pair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pair.h; sourceTree = "<group>"; };
+		C59E4B8A1EC184D7000CFE90 /* Pair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pair.m; sourceTree = "<group>"; };
 		C5AF62F21EB7FFD7006265B3 /* MMStatTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMStatTracker.h; sourceTree = "<group>"; };
 		C5AF62F31EB7FFD7006265B3 /* MMStatTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMStatTracker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,6 +54,7 @@
 		C5120DD31EA5543300D22EA5 /* KiwiUtility */ = {
 			isa = PBXGroup;
 			children = (
+				C5120DD41EA5543300D22EA5 /* KiwiUtility.h */,
 				C5AF62F21EB7FFD7006265B3 /* MMStatTracker.h */,
 				C5AF62F31EB7FFD7006265B3 /* MMStatTracker.m */,
 				C57AF8001EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.h */,
@@ -60,8 +65,9 @@
 				C513C1D61EA5507500A59E7C /* NSArray+Helper.m */,
 				C59A945B1EA84BF40024D38F /* NSString+MMHelper.h */,
 				C59A945C1EA84BF40024D38F /* NSString+MMHelper.m */,
-				C5120DD41EA5543300D22EA5 /* KiwiUtility.h */,
 				C5120DD51EA5543300D22EA5 /* Info.plist */,
+				C59E4B891EC184D7000CFE90 /* Pair.h */,
+				C59E4B8A1EC184D7000CFE90 /* Pair.m */,
 			);
 			path = KiwiUtility;
 			sourceTree = "<group>";
@@ -89,6 +95,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C59E4B8B1EC184D7000CFE90 /* Pair.h in Headers */,
 				C5120DD61EA5543300D22EA5 /* KiwiUtility.h in Headers */,
 				C5120DDD1EA5545A00D22EA5 /* NSArray+MapReduce.h in Headers */,
 				C5AF62F41EB7FFD7006265B3 /* MMStatTracker.h in Headers */,
@@ -168,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5AF62F51EB7FFD7006265B3 /* MMStatTracker.m in Sources */,
+				C59E4B8C1EC184D7000CFE90 /* Pair.m in Sources */,
 				C59A945E1EA84BF40024D38F /* NSString+MMHelper.m in Sources */,
 				C5120DDA1EA5545200D22EA5 /* NSArray+Helper.m in Sources */,
 				C5120DDB1EA5545400D22EA5 /* NSArray+MapReduce.m in Sources */,
