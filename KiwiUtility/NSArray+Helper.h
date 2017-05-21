@@ -31,6 +31,8 @@
 
 - (NSArray *)arrayByRemovingLastObject;
 
+- (NSArray *)arrayByRemovingFirstObject;
+
 -(id) objectAfter:(NSObject*)obj;
 
 -(id) objectBefore:(NSObject*)obj;

@@ -79,6 +79,15 @@
     return [NSArray arrayWithArray:arr];
 }
 
+- (NSArray *)arrayByRemovingFirstObject
+{
+    NSMutableArray* arr = [NSMutableArray arrayWithArray:self];
+    if([self count]){
+        [arr removeObjectAtIndex:0];
+    }
+    return [NSArray arrayWithArray:arr];
+}
+
 - (NSArray *)arrayByRemovingObjectAtIndex:(NSUInteger)index{
     NSMutableArray* arr = [NSMutableArray arrayWithArray:self];
     [arr removeObjectAtIndex:index];
