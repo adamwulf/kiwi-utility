@@ -8,11 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Pair <ObjectType> : NSObject
+@interface Pair <ObjectType1, ObjectType2> : NSObject
 
-+(instancetype) pairWithVal1:(ObjectType)val1 andVal2:(ObjectType)val2;
++(instancetype) pairWithVal1:(ObjectType1)val1 andVal2:(ObjectType2)val2;
 
-@property (nonatomic, strong) ObjectType val1;
-@property (nonatomic, strong) ObjectType val2;
+@property (nonatomic, strong) ObjectType1 val1;
+@property (nonatomic, strong) ObjectType2 val2;
 
 @end
