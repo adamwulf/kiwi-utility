@@ -138,6 +138,12 @@
     }
 }
 
+-(void) removeFirstObject{
+    if([self count]){
+        [self removeObjectAtIndex:0];
+    }
+}
+
 -(void) moveObjectAtIndex:(NSUInteger)index1 toIndex:(NSUInteger)index2{
     id obj = [self objectAtIndex:index1];
     [self removeObjectAtIndex:index1];

@@ -47,6 +47,8 @@
 
 -(void) reverseArray;
 
+-(void) removeFirstObject;
+
 -(void) moveObjectAtIndex:(NSUInteger)index1 toIndex:(NSUInteger)index2;
 
 @end
