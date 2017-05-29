@@ -12,6 +12,8 @@
 		C5120DDB1EA5545400D22EA5 /* NSArray+MapReduce.m in Sources */ = {isa = PBXBuildFile; fileRef = C513C1D41EA5507500A59E7C /* NSArray+MapReduce.m */; };
 		C5120DDC1EA5545700D22EA5 /* NSArray+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = C513C1D51EA5507500A59E7C /* NSArray+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5120DDD1EA5545A00D22EA5 /* NSArray+MapReduce.h in Headers */ = {isa = PBXBuildFile; fileRef = C513C1D31EA5507500A59E7C /* NSArray+MapReduce.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5451EC21EDBCC3D003DBF08 /* KiwiUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5451EC11EDBCC3D003DBF08 /* KiwiUtilityTests.m */; };
+		C5451EC41EDBCC3E003DBF08 /* KiwiUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5120DD21EA5543300D22EA5 /* KiwiUtility.framework */; };
 		C57AF8021EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.h in Headers */ = {isa = PBXBuildFile; fileRef = C57AF8001EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C57AF8031EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.m in Sources */ = {isa = PBXBuildFile; fileRef = C57AF8011EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.m */; };
 		C59A945D1EA84BF40024D38F /* NSString+MMHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C59A945B1EA84BF40024D38F /* NSString+MMHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -22,6 +24,16 @@
 		C5AF62F51EB7FFD7006265B3 /* MMStatTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AF62F31EB7FFD7006265B3 /* MMStatTracker.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C5451EC51EDBCC3E003DBF08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C513C1BF1EA5505700A59E7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5120DD11EA5543300D22EA5;
+			remoteInfo = KiwiUtility;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		C5120DD21EA5543300D22EA5 /* KiwiUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KiwiUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5120DD41EA5543300D22EA5 /* KiwiUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiwiUtility.h; sourceTree = "<group>"; };
@@ -30,6 +42,9 @@
 		C513C1D41EA5507500A59E7C /* NSArray+MapReduce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MapReduce.m"; sourceTree = "<group>"; };
 		C513C1D51EA5507500A59E7C /* NSArray+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Helper.h"; sourceTree = "<group>"; };
 		C513C1D61EA5507500A59E7C /* NSArray+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Helper.m"; sourceTree = "<group>"; };
+		C5451EBF1EDBCC3D003DBF08 /* KiwiUtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiUtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5451EC11EDBCC3D003DBF08 /* KiwiUtilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiUtilityTests.m; sourceTree = "<group>"; };
+		C5451EC31EDBCC3E003DBF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C57AF8001EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DirectoryOptimizations.h"; sourceTree = "<group>"; };
 		C57AF8011EAB03B900DB330D /* NSFileManager+DirectoryOptimizations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DirectoryOptimizations.m"; sourceTree = "<group>"; };
 		C59A945B1EA84BF40024D38F /* NSString+MMHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MMHelper.h"; sourceTree = "<group>"; };
@@ -45,6 +60,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5451EBC1EDBCC3D003DBF08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5451EC41EDBCC3E003DBF08 /* KiwiUtility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				C5120DD31EA5543300D22EA5 /* KiwiUtility */,
+				C5451EC01EDBCC3D003DBF08 /* KiwiUtilityTests */,
 				C513C1C81EA5505700A59E7C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,8 +108,18 @@
 			isa = PBXGroup;
 			children = (
 				C5120DD21EA5543300D22EA5 /* KiwiUtility.framework */,
+				C5451EBF1EDBCC3D003DBF08 /* KiwiUtilityTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C5451EC01EDBCC3D003DBF08 /* KiwiUtilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5451EC11EDBCC3D003DBF08 /* KiwiUtilityTests.m */,
+				C5451EC31EDBCC3E003DBF08 /* Info.plist */,
+			);
+			path = KiwiUtilityTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +160,24 @@
 			productReference = C5120DD21EA5543300D22EA5 /* KiwiUtility.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		C5451EBE1EDBCC3D003DBF08 /* KiwiUtilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5451EC91EDBCC3E003DBF08 /* Build configuration list for PBXNativeTarget "KiwiUtilityTests" */;
+			buildPhases = (
+				C5451EBB1EDBCC3D003DBF08 /* Sources */,
+				C5451EBC1EDBCC3D003DBF08 /* Frameworks */,
+				C5451EBD1EDBCC3D003DBF08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5451EC61EDBCC3E003DBF08 /* PBXTargetDependency */,
+			);
+			name = KiwiUtilityTests;
+			productName = KiwiUtilityTests;
+			productReference = C5451EBF1EDBCC3D003DBF08 /* KiwiUtilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -137,6 +189,11 @@
 				TargetAttributes = {
 					C5120DD11EA5543300D22EA5 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = MU27A4SCKC;
+						ProvisioningStyle = Automatic;
+					};
+					C5451EBE1EDBCC3D003DBF08 = {
+						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = MU27A4SCKC;
 						ProvisioningStyle = Automatic;
 					};
@@ -155,12 +212,20 @@
 			projectRoot = "";
 			targets = (
 				C5120DD11EA5543300D22EA5 /* KiwiUtility */,
+				C5451EBE1EDBCC3D003DBF08 /* KiwiUtilityTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C5120DD01EA5543300D22EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5451EBD1EDBCC3D003DBF08 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -183,7 +248,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5451EBB1EDBCC3D003DBF08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5451EC21EDBCC3D003DBF08 /* KiwiUtilityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5451EC61EDBCC3E003DBF08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5120DD11EA5543300D22EA5 /* KiwiUtility */;
+			targetProxy = C5451EC51EDBCC3E003DBF08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C5120DD81EA5543300D22EA5 /* Debug */ = {
@@ -322,6 +403,28 @@
 			};
 			name = Release;
 		};
+		C5451EC71EDBCC3E003DBF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MU27A4SCKC;
+				INFOPLIST_FILE = KiwiUtilityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milestonemade.KiwiUtilityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5451EC81EDBCC3E003DBF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MU27A4SCKC;
+				INFOPLIST_FILE = KiwiUtilityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milestonemade.KiwiUtilityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -342,6 +445,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C5451EC91EDBCC3E003DBF08 /* Build configuration list for PBXNativeTarget "KiwiUtilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5451EC71EDBCC3E003DBF08 /* Debug */,
+				C5451EC81EDBCC3E003DBF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
