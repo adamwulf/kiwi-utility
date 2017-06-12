@@ -1,6 +1,6 @@
 //
 //  NSArray+MapReduce.m
-//  Loose Leaf
+//  KiwiUtility
 //
 //  Created by Adam Wulf on 6/18/12.
 //  Copyright (c) 2012 Milestone Made, LLC. All rights reserved.

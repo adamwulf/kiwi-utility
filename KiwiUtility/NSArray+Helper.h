@@ -1,6 +1,6 @@
 //
 //  NSArray+Helper.h
-//  EngParser
+//  KiwiUtility
 //
 //  Created by Adam Wulf on 4/26/13.
 //  Copyright (c) 2013 Milestone Made LLC. All rights reserved.

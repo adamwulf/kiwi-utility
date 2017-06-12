@@ -1,6 +1,6 @@
 //
 //  NSString+MMHelper.h
-//  kiwi-utility
+//  KiwiUtility
 //
 //  Created by Adam Wulf on 4/19/17.
 //  Copyright © 2017 Milestone Made. All rights reserved.
