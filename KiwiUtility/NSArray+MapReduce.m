@@ -19,7 +19,12 @@
     NSMutableArray* result = [[NSMutableArray alloc] init];
     NSUInteger index;
     for (index = 0; index < [self count]; index++) {
-        [result addObject:mapfunc([self objectAtIndex:index], index)];
+        id obj = mapfunc([self objectAtIndex:index], index);
+        if(obj){
+            [result addObject:obj];
+        }else{
+            mapfunc([self objectAtIndex:index], index);
+        }
     }
     return result;
 }
