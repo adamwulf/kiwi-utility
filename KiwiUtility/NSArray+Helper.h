@@ -8,11 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (Helper)
+@interface NSArray<Object> (Helper)
 
--(id) firstObject;
+-(Object) firstObject;
 
--(id) secondObject;
+-(Object) secondObject;
 
 -(NSArray*) objectsFromIndex:(NSInteger)indx;
 
@@ -33,9 +33,9 @@
 
 - (NSArray *)arrayByRemovingFirstObject;
 
--(id) objectAfter:(NSObject*)obj;
+-(Object) objectAfter:(Object)obj;
 
--(id) objectBefore:(NSObject*)obj;
+-(Object) objectBefore:(Object)obj;
 
 -(NSArray*) arrayByRemovingDuplicates;
 
